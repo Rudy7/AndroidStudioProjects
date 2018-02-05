@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO !"
+        android:textSize="50dp"
+        android:textColor="#f24545"
+        android:textAlignment="center" />
+    <EditText
+        android:id="@+id/input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="ID 입력" />
+    <EditText
+        android:id="@+id/input_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="PASS 입력" />
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8000000"
+        android:textColor="#20e712"
+        android:layout_marginTop="120dp"
+        android:text="로그인" />
+    <Button
+        android:id="@+id/join_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f8000000"
+        android:textColor="#1bd4be"
+        android:layout_marginTop="20dp"
+        android:text="회원가입"/>
+
+
+</LinearLayout>
