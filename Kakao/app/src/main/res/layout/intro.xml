@@ -19,14 +19,18 @@
         android:layout_marginTop="15dp"
         />
     <EditText
+        android:id="@+id/phone_number"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:hint="010-29"
         android:layout_marginTop="15dp"
+        android:background="@drawable/border_orenge"
+        android:text="010-1234-1234"
         android:textSize="25dp"
         />
     <Button
+        android:id="@+id/next_btn"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
@@ -39,7 +43,8 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="카카오톡은 전화번호의 본인 사용 확인 및 부정사용 방지를 위하여 인증을 필요로 합니다."
+        android:text="카카오톡은 전화번호의 본인 사용 확인 및
+                     부정사용 방지를 위하여 인증을 필요로 합니다."
         android:layout_marginLeft="11dp"
         android:textColor="#9f8d04"
         android:layout_marginTop="15dp"
