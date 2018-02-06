@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fade05"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="ID 입력"
+        android:textSize="15dp"
+        android:layout_marginTop="250dp"
+        android:background="#d1cdcd"
+        />
+    <EditText
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:hint="PASS 입력"
+        android:textSize="15dp"
+        android:background="#d1cdcd"
+        android:layout_marginTop="1dp"
+        />
+    <Button
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="로그인"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#d1cdcd"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="윈도우 시작시 자동 실행"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="30dp"
+        android:textSize="17dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="비밀번호를 잊어버리셨나요?"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        />
+
+</LinearLayout>
