@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+<LinearLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bitcamp.app.kakao.activity.MemberDetail">
+    android:orientation="vertical"
+    android:background="#ece6e6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#764603"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="    정용우 프로필"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:background="#764603"
+            />
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="         수정"
+            android:textSize="25dp"
+            android:textColor="#fffefe"
+            android:background="#764603"
+            />
+    </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profilepoto"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      훈이 아빠"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      상태메시지"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        android:layout_marginTop="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      카카오계정
+      xxx@xxx.com"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      주소
+      인천광역시 계양구 병방동"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#ffffff"
+        />
+</LinearLayout>
